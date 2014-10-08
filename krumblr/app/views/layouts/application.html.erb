@@ -5,15 +5,41 @@
 	
 	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
 	
+
 	<%= csrf_meta_tags %>
 	
 	</head>
 	<body>
-		This is how you make toolbars
-		<%= link_to "welcome", "/" %>
-		<%= link_to "about", "about" %>
-	<%= yield %>
-	<!-- fetches page we are looking at -->
+		
+		<div class="container">
+			<div class="page-header">
+				<ul class="nav nav-pills pull-right">
+			<!-- This is how you make toolbars -->
+					<li>
+					<%= link_to "welcome", "/" %>
+					</li>
+				
+					<li>
+					<%= link_to "about", "about" %>
+					</li>
+				</ul>
+				<h1>
+					<%= link_to 'Live smart', '/' %>
+					<small>save smarter</small>
+				</h1>
+			</div>
+			</div class="row">
+				<div class="cal-md-7 col-md-offset-4">
+				<%= yield %>
+			</div>
+			
+
+			
+		<!-- fetches page we are looking at -->
+		</div>
 	</body>
 </html>
