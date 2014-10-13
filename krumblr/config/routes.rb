@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
-  get 'about' => "pages#about"
+  resources :posts
 
+  get 'about' => "pages#about"
+  
+  #not needed automatically done through route
+  # get 'posts' => "pages#posts"
+  
   root 'pages#welcome'
 
   # The priority is based upon order of creation: first created -> highest priority.

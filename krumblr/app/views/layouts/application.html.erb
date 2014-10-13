@@ -20,12 +20,18 @@
 				<ul class="nav nav-pills pull-right">
 			<!-- This is how you make toolbars -->
 					<li>
-					<%= link_to "welcome", "/" %>
+					<%= link_to "welcome", root_url %>
 					</li>
 				
 					<li>
-					<%= link_to "about", "about" %>
+					<%= link_to "blog manager", posts_url %>
 					</li>
+
+					<li>
+					<%= link_to "about", about_url %>
+					</li>
+					
+
 				</ul>
 				<h1>
 					<%= link_to 'Live smart', '/' %>
@@ -33,7 +39,7 @@
 				</h1>
 			</div>
 			</div class="row">
-				<div class="cal-md-7 col-md-offset-4">
+				<div class="col-md-6 col-md-offset-3">
 				<%= yield %>
 			</div>
 			

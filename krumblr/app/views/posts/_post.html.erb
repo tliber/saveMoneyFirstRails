@@ -1,0 +1,18 @@
+<p>
+  	<h3>
+  		<%=link_to post.title, post %>
+  	</h3>
+</p>
+
+<p>
+  <% if post.kind == 'image'%>
+  	<%= image_tag post.content , style: "width = 100%" %>
+  <% else %>
+  	<%=simple_format post.content %>
+  <%end%>
+</p>
+
+<p class="text-muted">
+	<small>Post created on: <%= post.created_at.to_formatted_s(:short)%>
+	</small>
+</p>

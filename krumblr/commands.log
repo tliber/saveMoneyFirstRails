@@ -1,0 +1,33 @@
+#make webpages
+rails generate controller Pages about welcome
+
+cd Users\Tolik\GitRepos
+#????
+add gem boottrap
+gem install bootstrap
+gem install bootstrap-sass
+gem install twitter-bootstrap-rails
+Y
+gem install twitter-bootstrap-rails
+cd krumblr
+rails new article_app
+cd ..
+gem install bundler
+cd krumblr
+bundler init
+ls
+dir
+bootstrap-sass -v
+bootstrap-sass
+bootstrap
+bootstrap -v
+bootstrap -version
+cd ..
+bootstrap -v
+cd krumblr
+rails generate scaffold
+#generates a blog post
+rails generate scaffold Post title:string content:text --no-stylesheets
+rake db:migrate
+rake routes
+doskey /history > commands.log
