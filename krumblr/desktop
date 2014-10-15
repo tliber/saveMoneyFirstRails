@@ -1,0 +1,37 @@
+rails generate controller Pages about welcome
+git --help
+ruby gem
+ruby gem bootstrap
+add gem boottrap
+gem install bootstrap
+gem install bootstrap-sass
+gem install twitter-bootstrap-rails
+cd krumblr
+rails new article_app
+gem install bundler
+bundler init
+bootstrap-sass -v
+bootstrap-sass
+bootstrap -version
+bootstrap -v
+rails generate scaffold
+rails generate scaffold Post title:string content:text --no-stylesheets
+rake db:migrate
+rake routes
+doskey /history > commands.log
+dir
+less commands.log
+cd .. ..
+rails conso;e
+rails console
+rails console
+rake routes
+rails generate migration
+rails generate migration AddKindToPosts
+rails generate migration AddKindToPosts kind:string
+db migrate
+rake db migrate
+rake db:migrate
+rails console
+doskey /history > commands.log
+p05+a143
